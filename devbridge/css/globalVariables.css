@@ -1,0 +1,28 @@
+:root{
+    --main-content-font: MrEavesXL;
+    --headings-font: Nimbus;
+    --logo-font: "Verdana";
+    --logo-color: #FDBAD8;
+    --header-logo-color: #FFC2DD;
+    --right-color: #6994d4;
+    --footer-color: #FFFFFF;
+    --nav-color: #ffffff;
+    --header-color: #D3135A;
+    --menu-hover-color: #4D4D4D;
+    --main-layout: #E6E6E6;
+    --sections: #FFFFFF;
+    --lower-section: #CCCCCC;
+    --footer: #666666;
+    --dark: #000000;
+    --side: 50px;
+    --top: 20px;
+    --botom: 20px;
+}
+@font-face {
+    font-family: Nimbus;
+    src: url(../fonts/NimbusRomNo9L-Reg.otf);
+}
+@font-face {
+    font-family: MrEavesXL;
+    src: url(../fonts/MrEavesXLModNarOT-Reg.otf);
+}

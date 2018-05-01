@@ -1,0 +1,102 @@
+@import "./globalVariables.css";
+.content{
+    margin-left: var(--side);
+    margin-top: var(--top);
+    float: left;
+    max-width: 100%;
+    width: 65%;
+    min-width: 300px;   
+}
+.content p{
+    padding-right: 30px;
+    padding-left: 20px;
+
+}
+.content h1{
+    padding-right: 30px;
+    padding-left: 20px;
+
+    font-size: 33;
+}
+#text{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+}
+/*-------------------------------------------------------------*/
+/*two split divs*/
+.content .right{
+    width: 47%;
+    padding-top: 10px;
+    float: right;
+    background-color: #FFFFFF;
+    height: 150px;
+    max-height: 250px;
+}
+.content .left{
+    width: 45%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    height: 150px;
+    max-height: 250px;
+    font-size: 20;
+}
+.content .right h3{
+    padding-left: 10px;
+
+}
+.right li{
+    color: var(--right-color);
+    border-bottom:  2px solid #E6E6E6;
+    border-bottom-width: 70%;
+    padding-bottom: 5px;
+}
+.right li:last-child{
+    border-bottom: none;
+}
+.content .left p{
+    padding: 5px 5px 5px 5px;
+
+}
+.content .right ul{
+    list-style: none;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 1500px) {
+    .content{
+        width: 60%;
+    }
+    .content .left{
+        font-size: 14;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .content {
+        max-width: 700px;
+        min-width: 50%;
+        margin-left: 20%;
+    }
+    .content .right{
+        float: left;
+        margin-top: var(--top);
+        width: 100%;
+    }
+    .content .left{
+        margin-right: 10px;
+        float: left;
+        width: 100%;
+        font-size: 18;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .content .left, .right {
+        padding-bottom: 5px;
+        font-size: 13;
+    }
+}

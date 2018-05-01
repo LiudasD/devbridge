@@ -1,0 +1,44 @@
+@import url(./globalVariables.css);
+/*everything for header*/
+header {
+  background-color: var(--header-color);
+  height: 100px;
+  top: 0;
+  width: 100%;
+  font-family: var(--form-font); }
+
+header li {
+  float: right;
+  display: inline;
+  padding-right: 5px; }
+
+header a {
+  text-decoration: none;
+  padding-right: 5px; }
+
+/*-------------------------------------------------------------*/
+/*body and its components*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-layout);
+  font-family: var(--main-content-font);
+  word-break: break-all;
+  overflow-wrap: "-";
+  -ms-overflow-style: ellipsis;
+  text-overflow: "-"; }
+
+body h1, h2, h3 {
+  font-family: var(--headings-font); }
+
+/*-------------------------------------------------------------*/
+/*sidebar*/
+/*-------------------------------------------------------------*/
+/*main section*/
+/*-------------------------------------------------------------*/
+/*lower boxes*/
+/*-------------------------------------------------------------*/
+/*footer*/
+/*for phones and tables when sidebar doesnt fit*/
+
+/*# sourceMappingURL=styles.css.map */

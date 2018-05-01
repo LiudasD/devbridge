@@ -1,0 +1,54 @@
+@import "./globalVariables.css";
+#sidebar{
+    float: right;
+    max-height: 80%;
+    width: 22%;
+    margin-right: var(--side);
+}
+#sidebar form{
+    font-family: var(--form-font);
+    font-size: 14;
+    border: solid 2px;
+    border-color: var(--lower-section);
+    width: 100%;
+}
+#sidebar h1{
+    padding-left: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--dark);
+}
+#sidebar form label{
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#sidebar form button{
+    width: 40%;
+    height: 3%;
+    margin: 5% 0% 10% 10%;
+    background-color: var(--header-color);
+    color: var(--nav-color);
+    border: none;
+}
+
+#sidebar form input{
+    margin-top: 10px;
+    margin-left: 10%;
+    min-height: 25px;
+    width: 80%;
+}
+#comment{
+    height: 10%;
+}
+@media only screen and (max-width: 800px) {
+    #sidebar {
+        max-width: 100%;
+        min-width: 50%;
+        margin-right: 25%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #sidebar {
+        width: 25%;
+    }
+}
